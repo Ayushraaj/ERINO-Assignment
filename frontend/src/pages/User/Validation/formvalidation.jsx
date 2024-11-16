@@ -30,7 +30,7 @@ export const formvalidation = Yup.object({
   country: Yup.string()
     .label("Country")
     .min(4)
-    .required("Country is required"),
+    .required("Company is required"),
   state: Yup.string()
     .label("State")
     .min(4)
