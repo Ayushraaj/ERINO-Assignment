@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 export const userApi = createApi({
   reducerPath: 'userApi',
-  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:8000/api/" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://erino-assignment-qx4d.onrender.com/api/" }),
   endpoints: (builder) => ({
     getAllUsers: builder.query({
       query: () => ({
